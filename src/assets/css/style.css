@@ -1,0 +1,162 @@
+html, body, #root {
+	width: 100%;
+	height: 100%;
+}
+
+.parent{
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/*Alert form validation*/
+.invalid{
+	font-size: small;
+	color: red;
+}
+
+.action{
+	display: flex;
+	flex-direction: row;
+}
+
+.action a{
+	padding: 0 3px;
+}
+
+.icon{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.icon.add:hover{
+	color: #15AA6395;
+}
+
+.icon.add{
+	color: #15AA63;
+	font-size: 40px;
+	background-color: #FFF;
+	border-radius: 20px;
+	margin-top: -20px;
+}
+
+.icon.menu{
+	font-size: 40px;
+	color: #FFF;
+}
+
+.icon.remove{
+	color: #ed5127;
+}
+
+.icon.remove:hover{
+	color: #ed512795;
+}
+
+.icon.update{
+	color: #3e81ee;
+}
+
+.icon.update:hover{
+	color: #3e81ee95;
+}
+
+.g-table{
+	box-shadow: 1px 2px 4px #00000030;
+    border-radius: 5px;
+}
+
+.g-table thead{
+	border-bottom: 1px solid #AAA;
+}
+
+.g-table thead tr th{
+	font-weight: normal;
+}
+
+.head{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.head h3{
+	color: #3E81EE;
+	font-weight: bolder;
+}
+
+.head input{
+	width: 250px;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #AAA;
+	padding: 0 0;
+}
+
+.head input:focus{
+	border-bottom-color: #3E81EE;
+	outline: 0;
+	box-shadow: none;
+}
+
+.sidebar{
+	background-color: #FFF;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 2px 0px 15px #00000070;
+	width: 300px;
+}
+
+.sidebar-head{
+	background-color: #3E81EE;
+	padding: 20px;
+	padding-top: 40px;
+	color: #FFF;
+}
+
+.role{
+	font-size: small;
+}
+
+.sidebar-body{
+	padding: 10px;
+}
+
+.sidebar-card{
+	background-color: #3E81EE;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FFF;
+	height: 50px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.sidebar-card:hover{
+	background-color: #3E81EE95;
+}
+
+.navbar-bottom{
+	background-color: #3E81EE;
+	width: 100%;
+	margin-bottom: 0;
+	z-index: 1;
+}
+
+.navbar-child{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.alert-message{
+	margin-top: 20px;
+}
